@@ -56,3 +56,26 @@
 .rating {
   font-size: 2rem;
 }
+
+.driver-card {
+  display: flex;
+  padding: 1rem;
+  background-color: #455eb5;
+  border-radius: 0.5rem;
+  margin: 1rem 5px;
+  color: white;
+  gap: 1rem;
+}
+
+.driver-card img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  object-fit: cover;
+  float: right;
+}
+
+.driver-img,
+.driver-info {
+  flex: 1;
+}
