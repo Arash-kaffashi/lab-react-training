@@ -104,3 +104,11 @@
 .clickable-picture {
   margin: 5px;
 }
+
+.dice {
+  margin: 5px;
+}
+
+.dice img {
+  height: 10rem;
+}
