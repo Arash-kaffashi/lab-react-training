@@ -100,3 +100,7 @@
 .like-button:focus {
   border: 3px lightblue solid;
 }
+
+.clickable-picture {
+  margin: 5px;
+}
