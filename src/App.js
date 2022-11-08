@@ -94,6 +94,7 @@ function App() {
         }}
       />
       <LikeButton />
+      <LikeButton />
     </div>
   );
 }

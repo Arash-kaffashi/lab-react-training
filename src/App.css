@@ -54,7 +54,7 @@
 }
 
 .rating {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .driver-card {
@@ -73,6 +73,11 @@
   border-radius: 100%;
   object-fit: cover;
   float: right;
+}
+
+.driver-info > span:first-child {
+  font-weight: bold;
+  font-size: x-large;
 }
 
 .driver-img,
