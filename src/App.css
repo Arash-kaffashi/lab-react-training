@@ -21,3 +21,34 @@
 .text-center {
   text-align: center;
 }
+
+.credit-card {
+  display: inline-flex;
+  flex-flow: column wrap;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding: 1rem;
+}
+
+.credit-card img {
+  height: 20px;
+  align-self: flex-end;
+  object-fit: scale-down;
+}
+
+.card-n {
+  font-size: 2rem;
+  line-height: 1rem;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+
+.card-info {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card-info > span {
+  flex: 1 0 50%;
+}
