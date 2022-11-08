@@ -52,3 +52,7 @@
 .card-info > span {
   flex: 1 0 50%;
 }
+
+.rating {
+  font-size: 2rem;
+}
