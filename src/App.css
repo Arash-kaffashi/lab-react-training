@@ -79,3 +79,19 @@
 .driver-info {
   flex: 1;
 }
+
+.like-button {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  color: white;
+  margin: 5px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  border: 3px transparent solid;
+}
+
+.like-button:focus {
+  border: 3px lightblue solid;
+}
