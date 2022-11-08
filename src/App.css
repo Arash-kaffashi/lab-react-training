@@ -2,12 +2,15 @@
   text-align: left;
 }
 
-.idCard-border {
+.border {
   border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.idCard-border {
   display: flex;
   align-items: flex-start;
-  margin: 5px;
-  padding: 5px;
   gap: 5px;
 }
 

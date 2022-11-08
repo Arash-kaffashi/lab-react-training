@@ -2,7 +2,7 @@ function IdCard({ lastName, firstName, gender, height, birth, picture }) {
   let date = new Date(birth).toUTCString().split(' 00:')[0];
 
   return (
-    <div className="idCard-border">
+    <div className="idCard-border border">
       <img src={picture} alt="profile pic" />
       <div>
         <p>
