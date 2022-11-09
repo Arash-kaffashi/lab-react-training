@@ -142,3 +142,23 @@
 .numbers-table > div:nth-child(2n) {
   background-color: red;
 }
+
+.facebook {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.facebook-id {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.facebook-id img {
+  width: 128px;
+  height: 128px;
+}
+
+.facebook-id p {
+  width: 200px;
+}
