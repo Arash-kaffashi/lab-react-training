@@ -112,3 +112,17 @@
 .dice img {
   height: 10rem;
 }
+
+.carousel {
+  display: flex;
+}
+
+.carousel-back,
+.carousel-forward {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.carousel-back {
+}
